@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.7.1'
-gem 'sqlite3', '~>1.3.6'
-gem 'rspec-rails'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'bootsnap'
-gem 'rails-controller-testing'
+ruby '3.3.5'
+gem 'rails', '~> 7.1.0'
+gem 'sqlite3', '~> 1.6'
+gem 'puma', '~> 6.4'
+gem 'webrick', '~> 1.8'
+gem 'jbuilder', '~> 2.11'
+gem 'bootsnap', '>= 1.16.0', require: false
+gem 'ostruct'
+gem 'rspec-rails', '~> 6.1.0'
 
 group :development, :test do
   gem 'pry'

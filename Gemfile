@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.11'
 gem 'bootsnap', '>= 1.16.0', require: false
 gem 'ostruct'
 gem 'rspec-rails', '~> 6.1.0'
+gem 'rails-controller-testing'
 
 group :development, :test do
   gem 'pry'

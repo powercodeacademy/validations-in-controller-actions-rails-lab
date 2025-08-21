@@ -17,10 +17,6 @@ class AuthorsController < ApplicationController
     end
   end
 
-# Add validations to Author such that...
-# The name cannot be blank
-# The e-mail is unique
-
   private
 
   def author_params

@@ -16,7 +16,7 @@ For example, if someone creates a blog post with less than 100 characters of con
 
 ## Requirements
 
-Make sure you run `rake db:seed` so you have some data to work with (defined in `db/seeds.rb`).
+Make sure you run `bin/rails db:seed` so you have some data to work with (defined in `db/seeds.rb`).
 
 This is a barebones app with two models, `Author` and `Post`. Right now, you can...
 
